@@ -1,4 +1,4 @@
-const RecentlyPlayedStore = require('./recentlyPlayedStore');
+const RecentlyPlayedStore = require('../program/recentlyPlayedStore');
 const capacity = 3;
 
 test('add_song: should add songs to the store', () => {
